@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nGi-Vx-Ey0">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Znp-yb-Ys3">
+            <objects>
+                <viewController id="nGi-Vx-Ey0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kVe-Me-Dy2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cea-uM-SXU">
+                                <rect key="frame" x="40" y="339.33333333333331" width="334" height="57.333333333333314"/>
+                                <string key="text">Custom Camera asMagnifier Glass</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glv-DX-5hc">
+                                <rect key="frame" x="164.66666666666666" y="652" width="85" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RYRA Circuit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPU-0T-P37">
+                                <rect key="frame" x="148" y="692" width="118" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8SB-LN-PC6" firstAttribute="bottom" secondItem="DPU-0T-P37" secondAttribute="bottom" constant="20" id="Lqo-pg-FqP"/>
+                            <constraint firstItem="Cea-uM-SXU" firstAttribute="centerY" secondItem="kVe-Me-Dy2" secondAttribute="centerY" id="MMI-EN-PPR"/>
+                            <constraint firstItem="glv-DX-5hc" firstAttribute="centerX" secondItem="DPU-0T-P37" secondAttribute="centerX" id="XlJ-46-0Tt"/>
+                            <constraint firstItem="DPU-0T-P37" firstAttribute="top" secondItem="glv-DX-5hc" secondAttribute="bottom" constant="20" id="YGb-cC-KnP"/>
+                            <constraint firstItem="8SB-LN-PC6" firstAttribute="trailing" secondItem="Cea-uM-SXU" secondAttribute="trailing" constant="40" id="jes-PB-ly2"/>
+                            <constraint firstItem="DPU-0T-P37" firstAttribute="centerX" secondItem="kVe-Me-Dy2" secondAttribute="centerX" id="rpX-86-3Re"/>
+                            <constraint firstItem="Cea-uM-SXU" firstAttribute="centerX" secondItem="kVe-Me-Dy2" secondAttribute="centerX" id="xqJ-9I-wCd"/>
+                            <constraint firstItem="Cea-uM-SXU" firstAttribute="leading" secondItem="8SB-LN-PC6" secondAttribute="leading" constant="40" id="zKC-sd-5ho"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8SB-LN-PC6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rfm-ue-cAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
